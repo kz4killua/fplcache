@@ -12,9 +12,13 @@ from pathlib import Path
 import requests
 
 def main(args):
+    
+    url = 'https://fantasy.premierleague.com/api/bootstrap-static/'
+    cache = Path('cache')
+    
     # Fetch the FPL bootstrap JSON.
-    print(f'Fetching {args.url}... ', end='', flush=True)
-    r = requests.get(args.url)
+    print(f'Fetching {url}... ', end='', flush=True)
+    r = requests.get(url)
     if not r.ok:
         print(f'Failed: {r.status_code}.')
         exit(1)
@@ -27,7 +31,7 @@ def main(args):
 
     # Prepare the cache file path.
     now = datetime.datetime.today()
-    path = args.cache / Path(f'{now.year}/{now.month}/{now.day}/{now.hour:02d}{now.minute:02d}.json.xz')
+    path = cache / Path(f'{now.year}/{now.month}/{now.day}/{now.hour:02d}{now.minute:02d}.json.xz')
     path.parent.mkdir(parents=True, exist_ok=True)
 
     # Compress the JSON into the cache.
