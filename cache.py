@@ -16,7 +16,7 @@ def main():
     cache = Path('data')
     
     season = '2022-23'
-    DATA_DIR = = Path(f'data/api/{season}/players')
+    DATA_DIR = Path(f'data/api/{season}/players')
     DATA_DIR.mkdir(parents=True, exist_ok=True)
    
     # Fetch the FPL bootstrap JSON.
