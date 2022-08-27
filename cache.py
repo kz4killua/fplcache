@@ -4,7 +4,6 @@
 Fetch and cache FPL bootstrap data.
 """
 
-import argparse
 import datetime
 import json
 import lzma
@@ -41,10 +40,4 @@ def main():
     print(f'OK.')
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(
-        description='Fetch and cache FPL bootstrap data.',
-        formatter_class=argparse.ArgumentDefaultsHelpFormatter
-    )
-    parser.add_argument('--url', default='https://fantasy.premierleague.com/api/bootstrap-static/', help='url to cache')
-    parser.add_argument('--cache', type=Path, default=Path('cache'), help='cache path')
     main()
