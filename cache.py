@@ -13,7 +13,7 @@ import requests
 def main():
     
     url = 'https://fantasy.premierleague.com/api/bootstrap-static/'
-    cache = Path('cache')
+    cache = Path('data')
     
     # Fetch the FPL bootstrap JSON.
     print(f'Fetching {url}... ', end='', flush=True)
