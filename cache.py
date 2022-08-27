@@ -40,7 +40,7 @@ def main():
     # Update player data.   
     for id in elements['id'].unique():
         player = api.get_player_data(id)
-        player = pd.DataFrame(data['history'])
+        player = pd.DataFrame(player['history'])
         player.to_csv(DATA_DIR / f'{id}.csv', index=False)
 
     # Keep track of when last we saved player data.
