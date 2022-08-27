@@ -16,9 +16,9 @@ def main():
     cache = Path('data')
     
     season = '2022-23'
-    DATA_DIR = DATA_DIR = Path(f'data/api/{season}/players')
+    DATA_DIR = = Path(f'data/api/{season}/players')
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    
+   
     # Fetch the FPL bootstrap JSON.
     print(f'Fetching {url}... ', end='', flush=True)
     r = requests.get(url)
@@ -34,8 +34,9 @@ def main():
 
     # Prepare the cache file path.
     now = datetime.datetime.today()
-    path = cache / Path(f'{now.year}/{now.month}/{now.day}/{now.hour:02d}{now.minute:02d}.json.xz')
-    path.parent.mkdir(parents=True, exist_ok=True)
+    # path = cache / Path(f'{now.year}/{now.month}/{now.day}/{now.hour:02d}{now.minute:02d}.json.xz')
+    path = DATA_DIR / Path(f'{now.hour:02d}{now.minute:02d}.json.xz')
+    # path.parent.mkdir(parents=True, exist_ok=True)
 
     # Compress the JSON into the cache.
     print(f'Compressing into {path}... ', end='', flush=True)
