@@ -1,5 +1,0 @@
-element,fixture,opponent_team,total_points,was_home,kickoff_time,team_h_score,team_a_score,round,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,bps,influence,creativity,threat,ict_index,value,transfers_balance,selected,transfers_in,transfers_out
-145,3,8,2,False,2022-08-06T16:30:00Z,0,1,1,74,0,0,1,0,0,0,0,0,0,0,0,1,1.6,4.4,47.0,5.3,80,0,356575,0,0
-145,15,18,1,True,2022-08-14T15:30:00Z,2,2,2,89,0,0,0,1,0,0,0,1,0,0,0,0,10.0,13.8,37.0,6.1,80,-68929,330019,17220,86149
-145,25,11,2,False,2022-08-21T13:00:00Z,3,0,3,90,0,0,0,3,0,0,0,0,0,0,0,-2,7.8,13.7,8.0,3.0,79,9052,370461,84542,75490
-145,35,10,1,True,2022-08-27T14:00:00Z,2,1,4,90,0,0,0,1,0,0,0,1,0,0,0,-5,5.0,4.8,6.0,1.6,79,-57114,329819,26921,84035
