@@ -11,7 +11,7 @@ import lzma
 from pathlib import Path
 import requests
 
-def main(args):
+def main():
     
     url = 'https://fantasy.premierleague.com/api/bootstrap-static/'
     cache = Path('cache')
@@ -47,4 +47,4 @@ if __name__ == '__main__':
     )
     parser.add_argument('--url', default='https://fantasy.premierleague.com/api/bootstrap-static/', help='url to cache')
     parser.add_argument('--cache', type=Path, default=Path('cache'), help='cache path')
-    main(parser.parse_args())
+    main()
