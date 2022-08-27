@@ -10,7 +10,19 @@ import lzma
 from pathlib import Path
 import requests
 
+import pandas as pd
+import api
+import data
+
 def main():
+    
+    # Gather and unpack data
+    print('Gathering data...')
+    general_data = api.get_general_data()
+    fixtures = pd.DataFrame(api.get_fixtures())
+    season = data.get_current_season(fixtures)
+    elements = pd.DataFrame(general_data['elements'])
+    events = pd.DataFrame(general_data['events'])
     
     url = 'https://fantasy.premierleague.com/api/bootstrap-static/'
     cache = Path('data')
