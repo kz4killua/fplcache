@@ -15,6 +15,10 @@ def main():
     url = 'https://fantasy.premierleague.com/api/bootstrap-static/'
     cache = Path('data')
     
+    season = '2022-23'
+    DATA_DIR = DATA_DIR = Path(f'data/api/{season}/players')
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    
     # Fetch the FPL bootstrap JSON.
     print(f'Fetching {url}... ', end='', flush=True)
     r = requests.get(url)
