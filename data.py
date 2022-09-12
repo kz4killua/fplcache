@@ -31,7 +31,7 @@ def get_last_checked_event(events):
 
 def get_current_season(fixtures):
     """Returns the current season."""
-    year = int(fixtures.iloc[0]['kickoff_time'].split('-')[0])
+    year = int(fixtures.dropna().iloc[0]['kickoff_time'].split('-')[0])
     return year_to_season(year)
 
 
