@@ -1,2 +1,9 @@
-element,fixture,opponent_team,total_points,was_home,kickoff_time,team_h_score,team_a_score,round,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,bps,influence,creativity,threat,ict_index,value,transfers_balance,selected,transfers_in,transfers_out
-633,82,3,0,False,2022-10-01T14:00:00Z,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,40,0,0,0,0
+element,fixture,opponent_team,total_points,was_home,kickoff_time,team_h_score,team_a_score,round,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,bps,influence,creativity,threat,ict_index,starts,expected_goals,expected_assists,expected_goal_involvements,expected_goals_conceded,value,transfers_balance,selected,transfers_in,transfers_out
+633,82,3,0,False,2022-10-01T14:00:00Z,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.00000,0.00000,0.00000,0.00000,40,0,0,0,0
+633,98,15,0,False,2022-10-08T14:00:00Z,5,1,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.00000,0.00000,0.00000,0.00000,40,1084,1452,1153,69
+633,102,5,0,True,2022-10-14T19:00:00Z,2,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.00000,0.00000,0.00000,0.00000,40,156,1807,582,426
+633,113,6,0,True,2022-10-19T18:30:00Z,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.00000,0.00000,0.00000,0.00000,40,157,2691,423,266
+633,121,2,0,False,2022-10-23T13:00:00Z,4,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.00000,0.00000,0.00000,0.00000,40,84,2322,525,441
+633,133,20,0,True,2022-10-29T14:00:00Z,1,1,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.00000,0.00000,0.00000,0.00000,40,286,2785,525,239
+633,146,16,0,False,2022-11-05T15:00:00Z,2,2,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.00000,0.00000,0.00000,0.00000,40,73,3002,410,337
+633,155,13,0,False,2022-11-12T12:30:00Z,1,2,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0,0.00000,0.00000,0.00000,0.00000,40,550,3679,861,311
