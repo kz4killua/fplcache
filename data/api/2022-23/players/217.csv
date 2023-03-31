@@ -1,6 +1,6 @@
 element,fixture,opponent_team,total_points,was_home,kickoff_time,team_h_score,team_a_score,round,minutes,goals_scored,assists,clean_sheets,goals_conceded,own_goals,penalties_saved,penalties_missed,yellow_cards,red_cards,saves,bonus,bps,influence,creativity,threat,ict_index,starts,expected_goals,expected_assists,expected_goal_involvements,expected_goals_conceded,value,transfers_balance,selected,transfers_in,transfers_out
 217,4,12,1,True,2022-08-06T11:30:00Z,2,2,1,90,0,0,0,2,0,0,0,0,0,0,0,13,14.8,0.7,0.0,1.6,1,0.00,0.01,0.01,1.23,45,0,9043,0,0
-217,20,20,6,False,2022-08-13T14:00:00Z,0,0,2,90,0,0,1,0,0,0,0,0,0,0,0,21,21.2,19.3,1.0,4.2,1,0.02,0.05,0.06,0.89,45,405,12946,1487,1082
+217,20,20,6,False,2022-08-13T14:00:00Z,0,0,2,90,0,0,1,0,0,0,0,0,0,0,0,21,21.2,19.3,1.0,4.2,1,0.02,0.05,0.07,0.89,45,405,12946,1487,1082
 217,24,4,1,True,2022-08-20T14:00:00Z,3,2,3,90,0,0,0,2,0,0,0,0,0,0,0,9,11.4,21.4,0.0,3.3,1,0.00,0.01,0.01,1.80,45,1589,16456,2756,1167
 217,31,1,0,False,2022-08-27T16:30:00Z,2,1,4,90,0,0,0,2,0,0,0,1,0,0,0,17,31.8,4.8,0.0,3.7,1,0.00,0.03,0.03,2.73,45,-1660,15791,792,2452
 217,44,5,1,True,2022-08-30T18:30:00Z,2,1,5,90,0,0,0,1,0,0,0,1,0,0,0,10,19.4,11.7,0.0,3.1,1,0.00,0.07,0.07,1.42,45,197,17054,1684,1487
